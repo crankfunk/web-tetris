@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tetris Spiel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="retro-title">Tetris</h1>
+    <div id="game-container">
+        <canvas id="tetris" width="240" height="400"></canvas>
+        <div id="game-info">
+            <h2>Steuerung:</h2>
+            <ul>
+                <li>← → : Bewegen</li>
+                <li>↓ : Schneller fallen</li>
+                <li>Q : Gegen den Uhrzeigersinn drehen</li>
+                <li>W : Im Uhrzeigersinn drehen</li>
+            </ul>
+            <button id="startBtn">Start</button>
+            <button id="endBtn">Beenden</button>
+        </div>
+    </div>
+    <script src="tetris.js"></script>
+</body>
+</html>
